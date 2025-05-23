@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors - Doctor Appointment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ECF0F1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2C3E50;
+        }
+        .navbar {
+            background-color: #2C3E50;
+        }
+        .navbar a {
+            color: white;
+        }
+        .navbar a:hover {
+            color: #18BC9C;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .btn-accent {
+            background-color: #18BC9C;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-accent:hover {
+            background-color: #15a589;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg mb-4">
+    <div class="container">
+        <a class="navbar-brand text-white" href="index.html">HealthCare</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h2 class="text-center mb-4">Available Doctors</h2>
+    <div class="row">
+        <!-- Doctor Card 1 -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Dr. John Smith</h5>
+                <p>Cardiologist</p>
+                <a href="appointment.html?doctor=Dr.%20John%20Smith" class="btn btn-accent">Book Appointment</a>
+            </div>
+        </div>
+        <!-- Doctor Card 2 -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Dr. Sarah Lee</h5>
+                <p>Dermatologist</p>
+                <a href="appointment.html?doctor=Dr.%20Sarah%20Lee" class="btn btn-accent">Book Appointment</a>
+            </div>
+        </div>
+        <!-- Doctor Card 3 -->
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Dr. Alan Kim</h5>
+                <p>Pediatrician</p>
+                <a href="appointment.html?doctor=Dr.%20Alan%20Kim" class="btn btn-accent">Book Appointment</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
